@@ -50,9 +50,3 @@ function onGalleryContainerClick(event) {
 
 console.log (galleryItems);
 
-// document.addEventListener('keydown', function(e) {
-// if (e.key === 'Escape') {
-//     //ваша функция закрытия окна
-//     hideModal()
-//     }
-//     });
