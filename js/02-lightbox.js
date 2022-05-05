@@ -19,8 +19,7 @@ function createGallerySheet (image) {
     
     };
 
-let openImage = new SimpleLightbox('.gallery__item', {captionsData: 'alt', captionDelay: 250});
-openImage.on('show.simplelightbox')
+new SimpleLightbox('.gallery__item', {captionsData: 'alt', captionDelay: 250});
 
 
 console.log(galleryItems);
